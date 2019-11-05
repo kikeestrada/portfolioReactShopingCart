@@ -1,18 +1,15 @@
 import React from 'react';
-import AppRoutes from './AppRoutes'
-import {Provider} from 'react-redux'
 import '../styles/styles.scss';
-import store from '../redux/store'
+import Banner from './organisms/Banner'
+import Mainmenu from './organisms/MainMenu'
 
-
-
-//===========================================================================================
-//Insertar el banner de EdTeam
 const App = ()=> (
-    <Provider store ={store}>
-        <AppRoutes/>
-    </Provider>
-
+    <>
+    <Mainmenu/>
+    <Banner/>
+    </>
+    
 );
+
 
 export default App;
