@@ -1,0 +1,30 @@
+$fractions    : 1,2,3,4,5,6,7,8,9,10;
+$breakpoints  :
+    (
+        s     : 0,
+        m	  : 640px,
+        l	  : 960px,
+        lg	  : 1280px,
+        xl	  : 1600px
+    );
+@import "~ed-grid";
+@import "~edteam-style-guides/edteam-style-guides";
+
+.nav-input{
+  width           : 300px;
+  border          : 1px solid steelblue;
+  border-radius   : 5px;
+  margin          : 0 auto;
+}
+
+.s-card{
+  font-weight     : 700;
+  &__number{
+    border-bottom : 1px solid red;
+    border-top    : 1px solid red;
+    padding       : .5em;
+  }
+  @include from(l){
+    color         : steelblue;
+  }
+}
