@@ -10,22 +10,16 @@ const AppRoutes = () => (
 
     <Router>
         <MainMenu />
-        <Switch>
-            <Route path = "/" exact component={Home}/>
-            <Route path = "/cursos/:id" exact component={Course}/>
-            <Route path = "/cursos" exact component={()=>(
-                <>
-                <Banner/>
-                <Courses/>
-                </>
+        <Route path = "/" exact component={Home}/>
+        <Route path = "/cursos/:id" exact component={Course}/>
+        <Route path = "/cursos" exact component={()=>(
+            <>
+            <Banner/>
+            <Courses/>
+            </>
 
-            )}/>
-            <Route component={() => (
-                <div className="ed-grid">
-                    <h1>Página no encontrada</h1>
-                </div>
-            )}/>
-        </Switch>
+        )}/>
+
     </Router>
 
 )
