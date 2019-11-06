@@ -1,14 +1,21 @@
 import React from "react"
+import { connect } from "react-redux"
 
 
-const CartCounter = () => (
+const CartCounter = ({cartLegth}) => ( 
     <li className="s-card">
                 <i className="fas fa-cart-arrow-down"></i>
                 <span className="s-card__number">
-                1
+                {`${cartLegth}`}
                 </span>
             </li>
     )
 
+const mapStateToProps = state => (
+    {
+        cartLegth: state.cart.length 
+    }
+)
 
-export default CartCounter
+const mapDispatchToProps = () => {}
+export default connect(mapStateToProps, mapDispatchToProps)(CartCounter)
