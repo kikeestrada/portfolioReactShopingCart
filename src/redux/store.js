@@ -3,7 +3,7 @@ import { ADD_TO_CART, DELETE_FROM_CART } from './actions'
 
 const initialStore = {
     cart : []
-}
+};
 
 const rootReducer = (state = initialStore, action)=>{
     if(action.type === ADD_TO_CART){
