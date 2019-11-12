@@ -3,10 +3,10 @@ import { connect } from "react-redux"
 
 
 const CartCounter = ({cartLegth}) => (
-    <li className="s-card">
+    <span className="s-card s-cross-center s-main-end">
         <i className="fas fa-cart-arrow-down"></i>
         <span className="s-card__number"> {`${cartLegth}`} </span>
-    </li>
+    </span>
 )
 
 const mapStateToProps = state => (
