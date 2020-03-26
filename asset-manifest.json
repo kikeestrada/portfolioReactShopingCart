@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/4geektest/static/css/main.768c7b11.chunk.css",
-    "main.js": "/4geektest/static/js/main.bff15645.chunk.js",
-    "main.js.map": "/4geektest/static/js/main.bff15645.chunk.js.map",
-    "runtime~main.js": "/4geektest/static/js/runtime~main.af1e5548.js",
-    "runtime~main.js.map": "/4geektest/static/js/runtime~main.af1e5548.js.map",
-    "static/js/2.ad47faeb.chunk.js": "/4geektest/static/js/2.ad47faeb.chunk.js",
-    "static/js/2.ad47faeb.chunk.js.map": "/4geektest/static/js/2.ad47faeb.chunk.js.map",
-    "index.html": "/4geektest/index.html",
-    "precache-manifest.6ab8c0b4f2196149b4bb8dc82a4426e9.js": "/4geektest/precache-manifest.6ab8c0b4f2196149b4bb8dc82a4426e9.js",
-    "service-worker.js": "/4geektest/service-worker.js",
-    "static/css/main.768c7b11.chunk.css.map": "/4geektest/static/css/main.768c7b11.chunk.css.map"
+    "main.css": "/portfolioReactShopingCart/static/css/main.f9c89d73.chunk.css",
+    "main.js": "/portfolioReactShopingCart/static/js/main.74aafe81.chunk.js",
+    "main.js.map": "/portfolioReactShopingCart/static/js/main.74aafe81.chunk.js.map",
+    "runtime~main.js": "/portfolioReactShopingCart/static/js/runtime~main.7b7adb6f.js",
+    "runtime~main.js.map": "/portfolioReactShopingCart/static/js/runtime~main.7b7adb6f.js.map",
+    "static/js/2.ad47faeb.chunk.js": "/portfolioReactShopingCart/static/js/2.ad47faeb.chunk.js",
+    "static/js/2.ad47faeb.chunk.js.map": "/portfolioReactShopingCart/static/js/2.ad47faeb.chunk.js.map",
+    "index.html": "/portfolioReactShopingCart/index.html",
+    "precache-manifest.da38efe6746a8f3b11c1501c285f99c8.js": "/portfolioReactShopingCart/precache-manifest.da38efe6746a8f3b11c1501c285f99c8.js",
+    "service-worker.js": "/portfolioReactShopingCart/service-worker.js",
+    "static/css/main.f9c89d73.chunk.css.map": "/portfolioReactShopingCart/static/css/main.f9c89d73.chunk.css.map"
   }
 }
