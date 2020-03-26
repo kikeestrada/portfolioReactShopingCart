@@ -1,4 +1,4 @@
-Here the githubpages link: https://kikeestrada.github.io/4geektest/
+Here the githubpages link: https://kikeestrada.github.io/portfolioReactShopingCart/
 
 Best Regards!
 
