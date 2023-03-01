@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://kikeestrada.github.io/portfolioReactShopingCart/",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.2",
     "ed-grid": "^2.8.1",
     "ed-ui": "0.0.5",
     "edteam-style-guides": "0.0.55",
